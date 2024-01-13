@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    box-sizing: border-box;
+    background-color: #F3EDD7;
+    color: #755139;
+    
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    text-align: center;
+    font-size: large;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+    background-color: #755139;
+    border-radius: 10px;
+    padding: 20px;
+    color: #F3EDD7;
+    margin-top: 35px;
+    padding-left: 50px;
+    padding-right:50px;
+}
+.formy{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.input_field {
+    width: 400px;
+    height: 6vh;
+    padding-left: 10px;
+    border-radius: 11px;
+    border: solid 0.5px #755139 ;
+    background-color: white;
+}
+.input_field:focus{
+    outline: none;
+}
+.form_container{
+    margin-top: 20px;
+    color: #755139;
+}
+.input_btn {
+    padding: 15px 20px;
+    border-radius: 20px;
+    border: solid 0.5px #755139 ;
+    letter-spacing: 0.1rem;
+}
+.input_btn:hover{
+    border: solid 0.5px #F3EDD7;
+    background-color: #755139;
+    color: #F3EDD7;
+    transition: 0.3s;
+    
+}
+.tasks_body {
+    margin-top: 30px;
+
+}
+.no_tasks {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+    letter-spacing: 0.4rem;
+}
+.tasks_header{
+    text-align: center;
+}
+
+.task_container{
+    margin-top: 20px;
+    width: 700px;
+}
+.task {
+    width: 100%;
+    padding: 20px;
+    margin: 10px 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.task:nth-child(even){
+    border-left: solid #d5bba9 8px;
+    background-color:  #f7f1ee;
+}
+.task:nth-child(odd){
+    border-left: solid #755139 8px;
+    background-color: #e6d6cc;
+}
+.del-btn , .done-btn {
+    border-radius: 10px;
+    border: none;
+    padding: 10px 15px;
+    font-size: medium;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+
+.btns {
+    background-color: inherit;
+}
+.del-btn:hover , .done-btn:hover{
+    background-color: inherit;
+    transition: .3s;
+}
+.date {
+    background-color: inherit;
+    font-weight: 300;
+}
+
+/* .done {
+    background-color: aqua;
+    color: blue;
+} */
+
+/* Use font awesome instead of Delete / Done */
+/* Add functionality for Done btn */
+/* adjust btns size */
